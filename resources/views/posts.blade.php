@@ -5,7 +5,7 @@
     @foreach($posts as $posts)
     <article class="mb-5">
         <h2><a href="/posts/{{ $posts->id }}">{{ $posts->title }}</a></h2>
-        <p>{{ $posts->body }}</p>
+        <p>{{ $posts->excerpt }}</p>
     </article>
     @endforeach
 

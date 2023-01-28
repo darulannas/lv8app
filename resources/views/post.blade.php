@@ -2,7 +2,7 @@
 
 @section('container')
     <h1>{{ $post->title }}</h1>
-    {{ $post->body }}
+    {!! $post->body !!}
 
     <a href="/posts">Back to Posts</a>
 @endsection
