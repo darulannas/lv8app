@@ -20,13 +20,15 @@ use App\Models\User;
 
 Route::get('/', function () {
     return view('home', [
-        "title" => "Home"
+        "title" => "Home",
+        "active" => 'home'
     ]);
 });
 
 Route::get('/about', function () {
     return view('about', [
         "title" => "About",
+        "active" => 'about',
         "name" => "Darul Annas",
         "email" => "darulannas7@gmail.com",
         "image" => "profil-image.jpeg"
