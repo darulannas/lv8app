@@ -4,7 +4,8 @@
 <div class="row justify-content-center">
     <div class="col-lg-5 ">
         <main class="form-registration w-100 m-auto">
-            <form>
+            <form action="/register" method="post">
+            @csrf
             <div class="d-flex justify-content-center mt-5">
               <img class="mb-4" src="img/logo-rji.png" alt="logo rji" width="150" height="150">
             </div>
